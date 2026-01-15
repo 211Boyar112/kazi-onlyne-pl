@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polityka Prywatności</title>
+    <meta name="description" content="Polityka prywatności serwisu kasyno-online.it.com. Dowiedz się jak chronimy Twoje dane osobowe i informacje.">
+    <link rel="canonical" href="https://kasyno-online.it.com/privacy-policy">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    
+    <!-- SCHEMA MARKUP dla strony Polityки Prywatności -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://kasyno-online.it.com/#website",
+          "url": "https://kasyno-online.it.com/",
+          "name": "Kasyno online - opinie graczy i recenzje",
+          "description": "Kasyno online – opinie graczy, rzetelne recenzje i testy. Sprawdź nowe kasyno online, bonusy, wypłaty i bezpieczeństwo.",
+          "potentialAction": [{
+            "@type": "SearchAction",
+            "target": "https://kasyno-online.it.com/?s={search_term_string}",
+            "query-input": "required name=search_term_string"
+          }],
+          "inLanguage": "pl-PL"
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://kasyno-online.it.com/#organization",
+          "name": "kasyno-online.it.com",
+          "url": "https://kasyno-online.it.com/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://kasyno-online.it.com/images/logo.png",
+            "width": 200,
+            "height": 60
+          },
+          "description": "Niezależny portal z recenzjami i opiniami o kasynach online",
+          "sameAs": []
+        },
+        {
+          "@type": "PrivacyPolicy",
+          "@id": "https://kasyno-online.it.com/privacy-policy",
+          "url": "https://kasyno-online.it.com/privacy-policy",
+          "name": "Polityka Prywatności",
+          "description": "Polityka prywatności serwisu kasyno-online.it.com. Dowiedz się jak chronimy Twoje dane osobowe i informacje.",
+          "isPartOf": {"@id": "https://kasyno-online.it.com/#website"},
+          "about": {"@id": "https://kasyno-online.it.com/#organization"},
+          "datePublished": "2026-01-07T10:00:00+01:00",
+          "dateModified": "2026-01-07T10:00:00+01:00",
+          "publisher": {"@id": "https://kasyno-online.it.com/#organization"},
+          "copyrightHolder": {"@id": "https://kasyno-online.it.com/#organization"},
+          "copyrightYear": "2026",
+          "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Strona główna",
+                "item": "https://kasyno-online.it.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Polityka Prywatności",
+                "item": "https://kasyno-online.it.com/privacy-policy"
+              }
+            ]
+          },
+          "inLanguage": "pl-PL",
+          "keywords": "polityka prywatności, ochrona danych, RODO, cookies, dane osobowe, prywatność",
+          "text": "Niniejsza Polityka Prywatności określa zasady przetwarzania i ochrony danych osobowych użytkowników serwisu internetowego kasyno-online.it.com. Szanujemy Twoją prywatność i zobowiązujemy się do ochrony Twoich danych osobowych.",
+          "potentialAction": [{
+            "@type": "ReadAction",
+            "target": ["https://kasyno-online.it.com/privacy-policy"]
+          }]
+        }
+      ]
+    }
+    </script>
+    
+    <style>
+        /* Reset i podstawowe style */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            line-height: 1.6;
+            color: #000;
+            background-color: #fff;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        /* Nagłówki */
+        h1, h2, h3 {
+            margin: 1.5em 0 0.8em;
+            font-weight: 600;
+            line-height: 1.3;
+        }
+        
+        h1 {
+            font-size: 2.2rem;
+            margin-top: 0.5em;
+            text-align: center;
+            padding-bottom: 15px;
+            border-bottom: 3px solid #000;
+        }
+        
+        h2 {
+            font-size: 1.6rem;
+            margin-top: 1.8em;
+            padding-bottom: 8px;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        h3 {
+            font-size: 1.3rem;
+            margin-top: 1.5em;
+        }
+        
+        /* Paragrafy i listy */
+        p {
+            margin-bottom: 1.2em;
+            text-align: justify;
+        }
+        
+        ul, ol {
+            margin-left: 1.8em;
+            margin-bottom: 1.5em;
+        }
+        
+        li {
+            margin-bottom: 0.8em;
+            line-height: 1.5;
+        }
+        
+        /* Sekcje i kontenery */
+        .policy-header {
+            background-color: #f5f5f5;
+            padding: 2em;
+            border-radius: 8px;
+            margin: 2em 0;
+            border-left: 4px solid #000;
+        }
+        
+        .last-updated {
+            text-align: center;
+            font-size: 0.9rem;
+            color: #555;
+            margin: 1em 0 2em;
+            font-style: italic;
+        }
+        
+        .contact-info {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 1.5em;
+            border-radius: 6px;
+            margin: 2em 0;
+        }
+        
+        /* Linki */
+        a {
+            color: #000;
+            text-decoration: underline;
+        }
+        
+        a:hover {
+            text-decoration: none;
+        }
+        
+        /* Nawigacja */
+        .back-to-home {
+            display: inline-block;
+            margin-bottom: 2em;
+            padding: 10px 20px;
+            background-color: #000;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        
+        .back-to-home:hover {
+            background-color: #333;
+            text-decoration: none;
+        }
+        
+        /* Stopka */
+        footer {
+            margin-top: 4em;
+            padding-top: 2em;
+            border-top: 2px solid #000;
+            font-size: 0.9rem;
+        }
+        
+        .footer-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-bottom: 1.5em;
+        }
+        
+        .footer-links a {
+            color: #000;
+            text-decoration: none;
+        }
+        
+        .footer-links a:hover {
+            text-decoration: underline;
+        }
+        
+        .copyright {
+            color: #555;
+            padding: 1em 0;
+        }
+        
+        .warning {
+            background-color: #f5f5f5;
+            border: 2px solid #000;
+            padding: 1.2em;
+            border-radius: 5px;
+            margin: 2em 0;
+            font-size: 0.95rem;
+        }
+        
+        /* Tabele */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5em 0;
+        }
+        
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px 15px;
+            text-align: left;
+        }
+        
+        th {
+            background-color: #f5f5f5;
+            font-weight: 600;
+        }
+        
+        /* Responsywność */
+        @media (max-width: 768px) {
+            body {
+                padding: 15px;
+            }
+            
+            h1 {
+                font-size: 1.8rem;
+            }
+            
+            h2 {
+                font-size: 1.4rem;
+            }
+            
+            h3 {
+                font-size: 1.2rem;
+            }
+            
+            .policy-header {
+                padding: 1.5em;
+            }
+            
+            .footer-links {
+                flex-direction: column;
+                gap: 10px;
+            }
+            
+            table {
+                display: block;
+                overflow-x: auto;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.6rem;
+            }
+            
+            body {
+                padding: 10px;
+            }
+            
+            .contact-info {
+                padding: 1em;
+            }
+        }
+        
+        /* Klasy pomocnicze */
+        .important {
+            background-color: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 1em;
+            margin: 1.5em 0;
+            border-radius: 0 5px 5px 0;
+        }
+        
+        .definition {
+            font-style: italic;
+            color: #555;
+            margin: 0.5em 0 1em 1em;
+            padding-left: 1em;
+            border-left: 2px solid #ddd;
+        }
+        
+        .section-number {
+            display: inline-block;
+            background-color: #000;
+            color: #fff;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 30px;
+            margin-right: 10px;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body itemscope itemtype="https://schema.org/PrivacyPolicy">
+    <!-- Nawigacja powrotna -->
+    <a href="/" class="back-to-home">← Powrót do strony głównej</a>
+    
+    <!-- Nagłówek -->
+    <header>
+        <h1 itemprop="headline">Polityka Prywatności</h1>
+        <div class="last-updated" itemprop="dateModified">Ostatnia aktualizacja: 7 stycznia 2026</div>
+        
+        <div class="policy-header">
+            <p itemprop="description">Niniejsza Polityka Prywatności określa zasady przetwarzania i ochrony danych osobowych użytkowników serwisu internetowego kasyno-online.it.com (zwanego dalej "Serwisem").</p>
+            <p itemprop="text">Szanujemy Twoją prywatność i zobowiązujemy się do ochrony Twoich danych osobowych. Poniższa polityka wyjaśnia, jakie dane zbieramy, w jaki sposób je wykorzystujemy i jakie masz prawa w związku z przetwarzaniem Twoich danych.</p>
+        </div>
+    </header>
+    
+    <main>
+        <!-- Sekcja 1 -->
+        <section itemprop="hasPart" itemscope itemtype="https://schema.org/WebPageElement">
+            <h2><span class="section-number">1</span><span itemprop="name">Administrator Danych</span></h2>
+            <p itemprop="text">Administratorem Twoich danych osobowych jest właściciel Serwisu kasyno-online.it.com. Jako Administrator dbamy o bezpieczeństwo danych, które nam powierzasz, oraz przestrzegamy obowiązujących przepisów o ochronie danych osobowych, w tym rozporządzenia RODO (UE) 2016/679.</p>
+            
+            <div class="contact-info" itemprop="mainEntity" itemscope itemtype="https://schema.org/ContactPoint">
+                <p><strong>Dane kontaktowe Administratora:</strong><br>
+                Email: <span itemprop="email">privacy@kasyno-online.it.com</span></p>
+                <p>Wszelkie pytania dotyczące przetwarzania danych osobowych prosimy kierować na powyższy adres email.</p>
+            </div>
+        </section>
+        
+        <!-- Sekcja 2 -->
+        <section itemprop="hasPart" itemscope itemtype="https://schema.org/WebPageElement">
+            <h2><span class="section-number">2</span><span itemprop="name">Jakie dane zbieramy?</span></h2>
+            <p>W zależności od tego, w jaki sposób korzystasz z naszego Serwisu, możemy zbierać następujące kategorie danych:</p>
+            
+            <h3 itemprop="name">2.1. Dane zbierane automatycznie</h3>
+            <ul>
+                <li><strong>Dane techniczne:</strong> adres IP, typ przeglądarki, wersja przeglądarki, rozmiar ekranu, system operacyjny, dane o urządzeniu</li>
+                <li><strong>Dane o korzystaniu z Serwisu:</strong> odwiedzane podstrony, czas spędzony na stronie, kliknięcia, ścieżki nawigacji</li>
+                <li><strong>Dane z plików cookies:</strong> informacje zapisywane w plikach cookies zgodnie z naszą Polityką Cookies</li>
+            </ul>
+            
+            <h3 itemprop="name">2.2. Dane przekazywane dobrowolnie</h3>
+            <ul>
+                <li><strong>Dane kontaktowe:</strong> adres email (jeśli kontaktujesz się z nami przez formularz kontaktowy)</li>
+                <li><strong>Treść wiadomości:</strong> informacje zawarte w wiadomościach wysyłanych do nas</li>
+            </ul>
+            
+            <div class="important">
+                <p><strong>Ważne:</strong> Nie zbieramy danych wrażliwych, danych finansowych ani danych umożliwiających bezpośrednią identyfikację, chyba że podasz je dobrowolnie w celu kontaktu.</p>
+            </div>
+        </section>
+        
+        <!-- Sekcja 3 -->
+        <section itemprop="hasPart" itemscope itemtype="https://schema.org/WebPageElement">
+            <h2><span class="section-number">3</span><span itemprop="name">Cel i podstawa przetwarzania danych</span></h2>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Cel przetwarzania</th>
+                        <th>Podstawa prawna</th>
+                        <th>Okres przechowywania</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Dostarczanie treści Serwisu</td>
+                        <td>Niezbędność do wykonania umowy (art. 6 ust. 1 lit. b RODO)</td>
+                        <td>Do czasu zakończenia sesji</td>
+                    </tr>
+                    <tr>
+                        <td>Analiza ruchu i optymalizacja Serwisu</td>
+                        <td>Prawnie uzasadniony interes (art. 6 ust. 1 lit. f RODO)</td>
+                        <td>Do 24 miesięcy</td>
+                    </tr>
+                    <tr>
+                        <td>Odpowiadanie na zapytania użytkowników</td>
+                        <td>Prawnie uzasadniony interes (art. 6 ust. 1 lit. f RODO)</td>
+                        <td>Do 12 miesięcy od ostatniego kontaktu</td>
+                    </tr>
+                    <tr>
+                        <td>Zapewnienie bezpieczeństwa Serwisu</td>
+                        <td>Prawnie uzasadniony interes (art. 6 ust. 1 lit. f RODO)</td>
+                        <td>Do 6 miesięcy</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        
+        <!-- Sekcja 4 -->
+        <section itemprop="hasPart" itemscope itemtype="https://schema.org/WebPageElement">
+            <h2><span class="section-number">4</span><span itemprop="name">Pliki Cookies</span></h2>
+            <p>Nasz Serwis używa plików cookies (ciasteczek). Są to małe pliki tekstowe zapisywane na Twoim urządzeniu, które pomagają nam:</p>
+            
+            <ul>
+                <li>Zapewnić poprawne działanie Serwisu</li>
+                <li>Zapamiętać Twoje preferencje (np. język)</li>
+                <li>Analizować ruch na stronie (Google Analytics)</li>
+                <li>Personalizować wyświetlane treści</li>
+            </ul>
+            
+            <h3 itemprop="name">4.1. Rodzaje używanych cookies</h3>
+            <ul>
+                <li><strong>Niezbędne:</strong> wymagane do działania Serwisu</li>
+                <li><strong>Analityczne:</strong> zbierają informacje o sposobie korzystania z Serwisu</li>
+                <li><strong>Funkcjonalne:</strong> zapamiętują Twoje ustawienia i preferencje</li>
+            </ul>
+            
+            <h3 itemprop="name">4.2. Zarządzanie cookies</h3>
+            <p>Możesz zarządzać ustawieniami cookies poprzez ustawienia swojej przeglądarki internetowej. Pamiętaj jednak, że wyłączenie niektórych cookies może wpłynąć na funkcjonalność Serwisu.</p>
+            
+            <div class="definition">
+                <p>Więcej informacji o plikach cookies znajdziesz w naszej <strong>Polityce Cookies</strong>, która stanowi integralną część niniejszej Polityki Prywatności.</p>
+            </div>
+        </section>
+        
+        <!-- Sekcja 5 -->
+        <section itemprop="hasPart" itemscope itemtype="https://schema.org/WebPageElement">
+            <h2><span class="section-number">5</span><span itemprop="name">Google Analytics</span></h2>
+            <p>Używamy Google Analytics do analizy ruchu na naszej stronie. Google Analytics zbiera anonimowe dane statystyczne, w tym:</p>
+            
+            <ul>
+                <li>Liczbę odwiedzających</li>
+                <li>Źródła ruchu (wyszukiwarki, linki zewnętrzne)</li>
+                <li>Zachowania użytkowników na stronie</li>
+                <li>Informacje demograficzne (wiek, płeć, zainteresowania)</li>
+            </ul>
+            
+            <p>Dane te są przetwarzane w sposób uniemożliwiający identyfikację konkretnych osób. Możesz zrezygnować ze zbierania danych przez Google Analytics instalując <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener noreferrer">dodatek do przeglądarki</a>.</p>
+            
+            <div class="important">
+                <p>Używamy Google Analytics z włączoną funkcją anonimizacji adresów IP. Oznacza to, że Twój adres IP jest skracany przez Google w państwie członkowskim Unii Europejskiej lub w innym państwie będącym stroną porozumienia o Europejskim Obszarze Gospodarczym.</p>
+            </div>
+        </section>
+        
+        <!-- Sekcja 6 -->
+        <section itemprop="hasPart" itemscope itemtype="https://schema.org/WebPageElement">
+            <h2><span class="section-number">6</span><span itemprop="name">Udostępnianie danych</span></h2>
+            <p>Twoje dane osobowe mogą być udostępniane następującym kategoriom podmiotów:</p>
+            
+            <ul>
+                <li><strong>Dostawcy usług technicznych:</strong> firmy hostingowe, dostawcy usług IT</li>
+                <li><strong>Narzędzia analityczne:</strong> Google Analytics</li>
+                <li><strong>Organy państwowe:</strong> tylko na żądanie uprawnionych organów i w granicach prawa</li>
+            </ul>
+            
+            <p>Nie sprzedajemy, nie wynajmujemy ani nie udostępniamy Twoich danych osobowych podmiotom trzecim w celach marketingowych.</p>
+            
+            <h3 itemprop="name">6.1. Transfer danych poza EOG</h3>
+            <p>Niektóre z naszych dostawców usług mogą przetwarzać dane poza Europejskim Obszarem Gospodarczym (EOG). W takich przypadkach zapewniamy odpowiednie zabezpieczenia prawne, w tym standardowe klauzule umowne zatwierdzone przez Komisję Europejską.</p>
+        </section>
+        
+        <!-- Sekcja 7 -->
+        <section itemprop="hasPart" itemscope itemtype="https://schema.org/WebPageElement">
+            <h2><span class="section-number">7</span><span itemprop="name">Bezpieczeństwo danych</span></h2>
+            <p>Stosujemy odpowiednie środki techniczne i organizacyjne, aby chronić Twoje dane przed:</p>
+            
+            <ul>
+                <li>Nieuprawnionym dostępem</li>
+                <li>Utratą</li>
+                <li>Zniszczeniem</li>
+                <li>Zmianą</li>
+                <li>Ujawnieniem</li>
+            </ul>
+            
+            <p>Środka bezpieczeństwa obejmują:</p>
+            
+            <ul>
+                <li>Szyfrowanie połączeń (HTTPS/SSL)</li>
+                <li>Regularne aktualizacje oprogramowania</li>
+                <li>Ograniczony dostęp do danych dla personelu</li>
+                <li>Regularne kopie zapasowe</li>
+                <li>Monitorowanie systemów pod kątem zagrożeń</li>
+            </ul>
+        </section>
+        
+        <!-- Sekcja 8 -->
+        <section itemprop="hasPart" itemscope itemtype="https://schema.org/WebPageElement">
+            <h2><span class="section-number">8</span><span itemprop="name">Prawa użytkowników</span></h2>
+            <p>Zgodnie z RODO przysługują Ci następujące prawa:</p>
+            
+            <ul>
+                <li><strong>Prawo dostępu:</strong> możesz żądać informacji, jakie dane przetwarzamy</li>
+                <li><strong>Prawo do sprostowania:</strong> możesz żądać poprawienia nieprawidłowych danych</li>
+                <li><strong>Prawo do usunięcia:</strong> możesz żądać usunięcia swoich danych ("prawo do bycia zapomnianym")</li>
+                <li><strong>Prawo do ograniczenia przetwarzania:</strong> możesz żądać ograniczenia przetwarzania danych</li>
+                <li><strong>Prawo do przenoszenia danych:</strong> możesz otrzymać swoje dane w formacie strukturalnym</li>
+                <li><strong>Prawo do sprzeciwu:</strong> możesz sprzeciwić się przetwarzaniu danych w celach marketingowych</li>
+                <li><strong>Prawo do wniesienia skargi:</strong> możesz złożyć skargę do Prezesa Urzędu Ochrony Danych Osobowych</li>
+            </ul>
+            
+            <div class="contact-info" itemprop="mainEntity" itemscope itemtype="https://schema.org/ContactPoint">
+                <p>Aby skorzystać z któregokolwiek z tych praw, skontaktuj się z nami pod adresem: <strong itemprop="email">privacy@kasyno-online.it.com</strong></p>
+                <p>Odpowiemy na Twoje żądanie w ciągu 30 dni od jego otrzymania.</p>
+            </div>
+        </section>
+        
+        <!-- Sekcja 9 -->
+        <section itemprop="hasPart" itemscope itemtype="https://schema.org/WebPageElement">
+            <h2><span class="section-number">9</span><span itemprop="name">Linki zewnętrzne</span></h2>
+            <p>Nasz Serwis zawiera linki do innych witryn internetowych, w szczególności do kasyn online. Po kliknięciu w te linki opuszczasz naszą stronę.</p>
+            
+            <div class="warning">
+                <p><strong>Uwaga:</strong> Nie ponosimy odpowiedzialności za politykę prywatności ani praktyki innych witryn. Zachęcamy do zapoznania się z polityką prywatności każdej odwiedzanej witryny.</p>
+            </div>
+            
+            <p>Linki zewnętrzne mogą używać własnych plików cookies i zbierać dane w sposób niezależny od nas. Nie mamy dostępu do ani kontroli nad tymi plikami.</p>
+        </section>
+        
+        <!-- Sekcja 10 -->
+        <section itemprop="hasPart" itemscope itemtype="https://schema.org/WebPageElement">
+            <h2><span class="section-number">10</span><span itemprop="name">Zmiany w Polityке Prywatności</span></h2>
+            <p>Zastrzegamy sobie prawo do aktualizacji niniejszej Polityки Prywatności. Wszelkie zmiany będą publikowane na tej stronie.</p>
+            
+            <ul>
+                <li>Data ostatniej aktualizacji jest zawsze widoczna na górze strony</li>
+                <li>Znaczące zmiany będą dodatkowo oznaczone</li>
+                <li>Kontynuując korzystanie z Serwisu po wprowadzeniu zmian, akceptujesz nową Politykę Prywatności</li>
+            </ul>
+            
+            <p>Zachęcamy do regularnego sprawdzania tej strony, aby być na bieżąco z naszą polityką ochrony prywatności.</p>
+        </section>
+        
+        <!-- Sekcja 11 -->
+        <section itemprop="hasPart" itemscope itemtype="https://schema.org/WebPageElement">
+            <h2><span class="section-number">11</span><span itemprop="name">Informacje dla osób niepełnoletnich</span></h2>
+            <p>Nasz Serwis jest przeznaczony wyłącznie dla osób pełnoletnich. Nie zbieramy świadomie danych osobowych od osób poniżej 18 roku życia.</p>
+            
+            <div class="warning">
+                <p><strong>Jeśli jesteś rodzicem lub opiekunem i uważasz, że Twoje dziecko przekazało nam dane osobowe, prosimy o kontakt. Usuniemy te dane tak szybko, jak to możliwe.</strong></p>
+            </div>
+        </section>
+        
+        <!-- Sekcja 12 -->
+        <section itemprop="hasPart" itemscope itemtype="https://schema.org/WebPageElement">
+            <h2><span class="section-number">12</span><span itemprop="name">Kontakt</span></h2>
+            <p>Jeśli masz jakiekolwiek pytania dotyczące tej Polityки Prywatności или przetwarzania Twoich danych osobowych, skontaktuj się z nami:</p>
+            
+            <div class="contact-info" itemprop="mainEntity" itemscope itemtype="https://schema.org/ContactPoint">
+                <p><strong>Email:</strong> <span itemprop="email">privacy@kasyno-online.it.com</span></p>
+                <p><strong>Czas odpowiedzi:</strong> Staramy się odpowiadać na wszystkie zapytania w ciągu 48 godzin roboczych.</p>
+            </div>
+            
+            <p>Możesz także skontaktować się z właściwym organem nadzoru - Prezesem Urzędu Ochrony Danych Osobowych:</p>
+            
+            <ul>
+                <li><strong>Adres:</strong> ul. Stawki 2, 00-193 Warszawa</li>
+                <li><strong>Telefon:</strong> 22 531 03 00</li>
+                <li><strong>Email:</strong> kancelaria@uodo.gov.pl</li>
+                <li><strong>Strona internetowa:</strong> <a href="https://uodo.gov.pl" target="_blank" rel="noopener noreferrer">uodo.gov.pl</a></li>
+            </ul>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer itemscope itemtype="https://schema.org/WPFooter">
+        <div class="footer-links">
+            <a href="/" itemprop="url">Strona główna</a>
+            <a href="/terms" itemprop="url">Regulamin</a>
+            <a href="/responsible-gaming" itemprop="url">Odpowiedzialna Gra</a>
+            <a href="/disclaimer" itemprop="url">Informacja Prawna</a>
+            <a href="/kontakt" itemprop="url">Kontakt</a>
+        </div>
+        <div class="copyright">
+            <span itemprop="copyrightYear">2026</span> <span itemprop="copyrightHolder">kasyno-online.it.com</span>. Wszelkie prawa zastrzeżone.
+        </div>
+        <div class="warning">
+            <p itemprop="disclaimer"><strong>Informacja:</strong> Hazard wiąże się z ryzykiem. Graj odpowiedzialnie. Strona ma charakter wyłącznie informacyjny. Sprawdź legalność hazardu w swoim kraju. Gry tylko dla osób pełnoletnich. Jeśli masz problem z hazardem, skontaktuj się z organizacją pomocową.</p>
+        </div>
+    </footer>
+</body>
+</html>
